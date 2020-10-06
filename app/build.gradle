@@ -29,9 +29,9 @@ android {
         }
         vectorDrawables.useSupportLibrary = true
 
-        ndk {
+        /*ndk {
             abiFilters 'armeabi'
-        }
+        }*/
 
         packagingOptions {
             exclude 'META-INF/AL2.0'
