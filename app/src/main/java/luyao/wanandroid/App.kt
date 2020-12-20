@@ -20,6 +20,7 @@ class App : Application() {
         lateinit var CURRENT_USER: User
     }
 
+
     override fun attachBaseContext(base: Context?) {
         super.attachBaseContext(base)
         Timer.start(APP_START)
